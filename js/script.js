@@ -114,6 +114,7 @@ function printQuote() {
   // randomize background color, use lightness & saturation from original bg color #36b55c HSL: 138,54,46
   newColor = getRandomColorHSL(54, 46);
   document.body.style.backgroundColor = newColor;
+  document.getElementById('loadQuote').style.backgroundColor = newColor;
   
   // concatenate html to display quote
   oQuote = getRandomQuote(quotes);
