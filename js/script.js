@@ -56,6 +56,7 @@ var quotes = [
   
 ];
 
+// for active timer to change display of quote
 var timerId;
 var lastQuote = -1;
 
@@ -94,8 +95,8 @@ function getRandomQuote(array) {
   
   // prevent last quote from showing again
   do {
-    intRandom = getRandomInt(0, array.length - 1)
-  } while (intRandom === lastQuote)
+    intRandom = getRandomInt(0, array.length - 1);
+  } while (intRandom === lastQuote);
   lastQuote = intRandom;
   return array[intRandom];
 }
@@ -115,7 +116,7 @@ function printQuote() {
   document.body.style.backgroundColor = newColor;
   
   // concatenate html to display quote
-  oQuote = getRandomQuote(quotes)
+  oQuote = getRandomQuote(quotes);
   html = '<p class="quote">' + oQuote.quote + '</p><p class="source">' + oQuote.source;
   if (oQuote.citation) {
     html += '<span class="citation">' + oQuote.citation + '</span>';
