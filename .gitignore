@@ -1,9 +1,18 @@
+# Notepad++ session files
+*.npps
+
+# Temporary backup files
+*.bak
+
+# End of Rard
+
 # Logs
 logs
 *.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
 
 # Runtime data
 pids

@@ -68,6 +68,18 @@ body {
   font-style: normal;
 }
 
+.category {
+  text-transform: lowercase; 
+}
+
+.category:before {
+  content: " [";
+}
+
+.category:after {
+  content: "]";
+}
+
 #loadQuote {
   position: fixed;
   width: 12em;
