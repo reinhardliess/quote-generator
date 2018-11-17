@@ -3,6 +3,7 @@
 
 # Temporary backup files
 *.bak
+*.*~
 
 # End of Rard
 
