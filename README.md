@@ -6,8 +6,8 @@ A live version of this project can be found [here](https://rliess.github.io/js-t
 
 ## Basic Project requirements
 
-* Create an object array of quotes
-* Create a `getRandomQuote` function
+* Create an object array of quotes of at least 5 quotes
+* Create a `getRandomQuote` function that displays a randomized quote
 * Add meaningful code comments
 
 ## Exceeds Grade Project Requirements
@@ -22,4 +22,4 @@ A live version of this project can be found [here](https://rliess.github.io/js-t
 * Optional property 'category' that is displayed if it exists
 * Quotes change automatically after 10 seconds (button isn't clicked)
 * A quote won't be displayed twice consecutively
-* Background color is randomly changed (\<body\> and \<button>\) - the hue is randomized keeping the brightness and saturation of the orginal background color (#36b55C, HSL: 138,54,46) constant.
+* Background color is randomly changed (\<body\> and \<button>\) - the hue is randomized keeping the brightness and saturation of the original background color (#36b55C, HSL: 138,54,46) constant.
