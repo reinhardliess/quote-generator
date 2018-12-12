@@ -115,7 +115,7 @@ function printQuote() {
   newColor = getRandomColorHSL(54, 46);
   document.body.style.backgroundColor = newColor;
   document.getElementById('loadQuote').style.backgroundColor = newColor;
-  
+
   // concatenate html to display quote
   oQuote = getRandomQuote(quotes);
   html = '<p class="quote">' + oQuote.quote + '</p><p class="source">' + oQuote.source;
